@@ -1,0 +1,85 @@
+body{
+	margin: 0px;
+	background-color: papayawhip;
+}
+.Head{
+	display: flex;
+	height: 100px;
+	align-items: center;
+	justify-content: center;
+}
+.headertext{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	color: black;
+}
+h2, h3, h4{
+	font-family: cursive;
+}
+h4{
+	margin-left: 75px;
+}
+.pics{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 800px;
+	border-width: 5px;
+	border-radius: 10%;
+	border-style: dotted;
+	border-color: black;
+}
+#header{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+video{
+	border-style: solid;
+	border-color: black;
+}	
+.tourism{
+	width: 300px;
+	background-color: yellow;
+}
+footer{
+	height: 50px;
+	background-color: navajowhite;
+}
+header{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin-bottom: 50px;
+	height: 75px;
+	background-color: navajowhite;
+}
+.navigation{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: space-around;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: skyblue;
+	height: 20px;
+}
+.nav{
+	content: none;
+	list-style: none;
+	display: inline-block;
+	color: black;
+	position: relative;
+	margin: 0 5px;
+}
+.nav:hover{
+	color: whitesmoke;
+}
